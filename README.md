@@ -1,6 +1,6 @@
 # SOAP-mini
 
-'''
+```
 from soapmini import SOAP_mini
 optimizerSOAPmini = SOAP_mini(model.parameters(), 
     lr=3e-3,
@@ -8,4 +8,4 @@ optimizerSOAPmini = SOAP_mini(model.parameters(),
     weight_decay=.01, 
     precondition_frequency=10
     )
-'''
+```
